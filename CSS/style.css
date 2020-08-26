@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'oxygen', sans-serif;
+}
+#header .circle {
+    border-radius: 50%;
+    width: .5rem;
+    height: .5rem;
+}
+#header .mb-6{
+    margin-bottom: 35rem;
+}
+#header .overlay{
+    position: absolute;
+    background-color: #000;
+    opacity: 0.5;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+#header .content{
+    position: absolute;
+    z-index: 2;
+    top: 40%;
+    left: 15rem;
+    right: 15rem;
+    bottom: 50%;
+    text-align: center;
+}
+#header img {
+    position: relative;
+}
+#header .text-black {
+    color: white;
+    font-size: 2rem;
+}
+#header .h-1 {
+    font-weight: 700;
+    font-size: 3rem;
+}
+#header .bt {
+    background-color: #000;
+    font-weight: 400;
+}
+#header .bt:hover {
+    background-color: transparent!important;
+    transition: 0.5s;
+    border: 2px solid #000000;
+}
+#card-1 .bw{
+    background-color: rgb(202, 202, 238);
+}
+#card-2 .bw{
+    background-color: rgb(202, 202, 238);
+}
+#testimonial {
+    background-image: url(../img/testimonial.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height: 600px;
+}
+#testimonial .overlay{
+    position: absolute;
+    background-color: #000;
+    opacity: 0.5;
+    z-index: 1;
+    width: 100%;
+    height: 600px;
+}
+#testimonial .testimonials{
+    position: absolute;
+    z-index: 10;
+    left: 15%;
+    right: 15%;
+    height: 600px;
+}
+#gallery .img{
+    position: relative;
+}
+#gallery .over {
+    height: 350px;
+    width: 100%;
+    background: linear-gradient(rgba(231, 6, 6, 0.397),rgba(71, 53, 231, 0.493));
+    opacity: 1;
+    position: absolute;
+    z-index: 1;
+}
+#gallery .content{
+    position: absolute;
+    z-index: 2;
+    top: 25%;
+    left: 10%;
+}
+#gallery .image{
+    position: relative;
+}
+#gallery .overlay {
+    height: 350px;
+    width: 100%;
+    background: #000000;
+    opacity: 0.5;
+    position: absolute;
+    z-index: 1;
+}
+#gallery .content h3{
+    font-weight:700; 
+    font-size: 2rem;
+}
+#gallery .content h3::after{
+    content: '';
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    border-radius: 0.2rem;
+    background-color: rgb(211, 210, 210);
+    margin-top: 0.5rem;
+    margin-bottom: 0.9rem;
+}
+#contact h2{
+    font-weight:700; 
+    font-size: 2rem;
+}
+#contact h2::after{
+    content: '';
+    display: block;
+    width: 2.5rem;
+    height: 0.3rem;
+    border-radius: 0.2rem;
+    background-color: rgb(211, 210, 210);
+    margin-top: 0.5rem;
+    margin-bottom: 0.9rem;
+}
+.btn-dark{
+    font-weight: 700;
+    border-radius: 20px;
+
+}
+.btn-dark:hover{
+    background-color: white;
+    color: #28a745;
+    font-weight: 700;
+    border-radius: 20px;
+}
+.btn-success{
+    font-weight: 700;
+    border-radius: 20px;
+
+}
+.btn-success:hover{
+    background-color: white;
+    color: #28a745;
+    font-weight: 700;
+    border-radius: 20px;
+}
+.nav-item:hover{
+    border-bottom: 2px solid #ffffff;
+    transition: all 0.8s ease;
+}
+#footer {
+    margin-top: -10px;
+}
+@media (min-width:768px){
+    .top-bar.bg-dark{
+        background-color: transparent !important;
+    }
+    #header {
+        position: relative;
+    }
+    header .top-bar{
+        position: absolute;
+        z-index: 1000;
+    }
+}
+
